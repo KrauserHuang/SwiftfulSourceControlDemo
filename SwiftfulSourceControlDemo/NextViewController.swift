@@ -31,7 +31,7 @@ import UIKit
 class NextViewController: UIViewController {
     
     private lazy var clickMeButton: UIButton = {
-        var config = UIButton.Configuration.plain()
+        var config = UIButton.Configuration.tinted()
         config.title = "Subscribe"
         let button = UIButton(type: .system)
         button.configuration = config
