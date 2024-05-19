@@ -5,6 +5,26 @@
 //  Created by Tai Chin Huang on 2024/5/19.
 //
 
+
+/*
+ COMMIT MESSAGES
+ 
+ NEW FEATURE:
+ [Feature] Description of the feature
+ 
+ BUG IN PRODUCTION:
+ [Patch] Description of patch
+ 
+ BUG NOT IN PRODUCTION:
+ [Bug] Fix this bug(Description of the bug)
+ 
+ MUNDANE TASKS:
+ [Clean] Description of changes
+ 
+ RELEASE:
+ [Release] Description of release
+ */
+
 import UIKit
 
 class NextViewController: UIViewController {
