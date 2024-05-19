@@ -33,7 +33,7 @@ class ViewController: UIViewController {
         return button
     }()
     
-    private lazy var vStackView = UIStackView(arrangedSubviews: [contentImageView, titleLabel, button])
+    private lazy var vStackView = UIStackView(arrangedSubviews: [contentImageView, titleLabel])
     
     override func viewDidLoad() {
         super.viewDidLoad()
