@@ -28,11 +28,33 @@
 import UIKit
 
 class NextViewController: UIViewController {
+    
+    private lazy var clickMeButton: UIButton = {
+        var config = UIButton.Configuration.plain()
+        config.title = "Subscribe"
+        let button = UIButton(type: .system)
+        button.configuration = config
+        button.translatesAutoresizingMaskIntoConstraints = false
+        return button
+    }()
+    
+    private lazy var vStackView = UIStackView(arrangedSubviews: [clickMeButton])
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         view.backgroundColor = .blue
+        
+        view.addSubview(vStackView)
+        vStackView.translatesAutoresizingMaskIntoConstraints = false
+        
+        NSLayoutConstraint.activate([
+            vStackView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            vStackView.centerYAnchor.constraint(equalTo: view.centerYAnchor),
+        ])
+        
+        vStackView.axis = .vertical
+        vStackView.spacing = 5
     }
     
 
