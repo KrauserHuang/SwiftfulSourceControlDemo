@@ -33,6 +33,10 @@ class NextViewController: UIViewController {
     private lazy var clickMeButton: UIButton = {
         var config = UIButton.Configuration.tinted()
         config.title = "Subscribe"
+        config.image = UIImage(systemName: "pencil")
+        config.buttonSize = .medium
+        config.imagePadding = 5
+        config.imagePlacement = .trailing
         let button = UIButton(type: .system)
         button.configuration = config
         button.translatesAutoresizingMaskIntoConstraints = false
