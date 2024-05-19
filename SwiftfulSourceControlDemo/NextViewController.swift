@@ -15,14 +15,15 @@
  BUG IN PRODUCTION:
  [Patch] Description of patch
  
+ RELEASE:
+ [Release] Description of release
+ 
  BUG NOT IN PRODUCTION:
  [Bug] Fix this bug(Description of the bug)
  
  MUNDANE TASKS:
  [Clean] Description of changes
  
- RELEASE:
- [Release] Description of release
  */
 
 import UIKit
