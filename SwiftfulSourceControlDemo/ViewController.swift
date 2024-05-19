@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     private lazy var contentImageView: UIImageView = {
         let imageView = UIImageView()
         imageView.image = UIImage(systemName: "heart.fill")
-        imageView.contentMode = .scaleAspectFit
+        imageView.contentMode = .scaleAspectFill
         imageView.translatesAutoresizingMaskIntoConstraints = false
         return imageView
     }()
@@ -25,8 +25,11 @@ class ViewController: UIViewController {
     }()
     
     private lazy var clickMeButton: UIButton = {
-        var config = UIButton.Configuration.plain()
+        var config = UIButton.Configuration.filled()
         config.title = "Click me!"
+        config.image = UIImage(systemName: "heart.fill")
+        config.imagePadding = 5
+        config.imagePlacement = .leading
         let button = UIButton(type: .system)
         button.configuration = config
         button.translatesAutoresizingMaskIntoConstraints = false
