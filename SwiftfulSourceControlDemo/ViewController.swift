@@ -24,7 +24,7 @@ class ViewController: UIViewController {
         return label
     }()
     
-    private lazy var button: UIButton = {
+    private lazy var clickMeButton: UIButton = {
         var config = UIButton.Configuration.plain()
         config.title = "Click me!"
         let button = UIButton(type: .system)
@@ -33,7 +33,7 @@ class ViewController: UIViewController {
         return button
     }()
     
-    private lazy var vStackView = UIStackView(arrangedSubviews: [contentImageView, titleLabel])
+    private lazy var vStackView = UIStackView(arrangedSubviews: [contentImageView, titleLabel, clickMeButton])
     
     override func viewDidLoad() {
         super.viewDidLoad()
