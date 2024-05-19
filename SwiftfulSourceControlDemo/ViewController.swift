@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     
     private lazy var clickMeButton: UIButton = {
         var config = UIButton.Configuration.filled()
-        config.title = "Click me!"
+        config.title = "Subscribe Now!"
         config.image = UIImage(systemName: "heart.fill")
         config.imagePadding = 5
         config.imagePlacement = .leading
