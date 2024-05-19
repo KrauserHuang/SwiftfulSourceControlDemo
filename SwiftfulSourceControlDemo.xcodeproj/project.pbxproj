@@ -13,6 +13,7 @@
 		4F28E76F2BF9865800D81EE3 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4F28E76E2BF9865800D81EE3 /* Base */; };
 		4F28E7712BF9865B00D81EE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F28E7702BF9865B00D81EE3 /* Assets.xcassets */; };
 		4F28E7742BF9865B00D81EE3 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4F28E7732BF9865B00D81EE3 /* Base */; };
+		4F9433042BF9CFC200A5B916 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9433032BF9CFC200A5B916 /* NextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4F28E7702BF9865B00D81EE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F28E7732BF9865B00D81EE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F28E7752BF9865B00D81EE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F9433032BF9CFC200A5B916 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				4F28E7672BF9865800D81EE3 /* AppDelegate.swift */,
 				4F28E7692BF9865800D81EE3 /* SceneDelegate.swift */,
 				4F28E76B2BF9865800D81EE3 /* ViewController.swift */,
+				4F9433032BF9CFC200A5B916 /* NextViewController.swift */,
 				4F28E76D2BF9865800D81EE3 /* Main.storyboard */,
 				4F28E7702BF9865B00D81EE3 /* Assets.xcassets */,
 				4F28E7722BF9865B00D81EE3 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F28E76C2BF9865800D81EE3 /* ViewController.swift in Sources */,
+				4F9433042BF9CFC200A5B916 /* NextViewController.swift in Sources */,
 				4F28E7682BF9865800D81EE3 /* AppDelegate.swift in Sources */,
 				4F28E76A2BF9865800D81EE3 /* SceneDelegate.swift in Sources */,
 			);
