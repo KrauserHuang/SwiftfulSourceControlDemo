@@ -37,6 +37,13 @@ import UIKit
 
 class NextViewController: UIViewController {
     
+    private lazy var titleLabel: UILabel = {
+        let label = UILabel()
+        label.text = "Swiftful Thinking!"
+        label.translatesAutoresizingMaskIntoConstraints = false
+        return label
+    }()
+    
     private lazy var clickMeButton: UIButton = {
         var config = UIButton.Configuration.tinted()
         config.title = "Subscribe!"
@@ -50,7 +57,7 @@ class NextViewController: UIViewController {
         return button
     }()
     
-    private lazy var vStackView = UIStackView(arrangedSubviews: [clickMeButton])
+    private lazy var vStackView = UIStackView(arrangedSubviews: [titleLabel, clickMeButton])
 
     override func viewDidLoad() {
         super.viewDidLoad()
