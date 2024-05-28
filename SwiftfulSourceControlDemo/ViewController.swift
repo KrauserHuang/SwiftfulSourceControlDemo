@@ -11,7 +11,7 @@ class ViewController: UIViewController {
     
     private lazy var contentImageView: UIImageView = {
         let imageView = UIImageView()
-        imageView.image = UIImage(systemName: "heart.fill")
+        imageView.image = UIImage(systemName: "bolt.fill")
         imageView.contentMode = .scaleAspectFill
         imageView.translatesAutoresizingMaskIntoConstraints = false
         return imageView
