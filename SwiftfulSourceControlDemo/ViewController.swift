@@ -11,7 +11,7 @@ class ViewController: UIViewController {
     
     private lazy var contentImageView: UIImageView = {
         let imageView = UIImageView()
-        imageView.image = UIImage(systemName: "house.fill")
+        imageView.image = UIImage(systemName: "globe")
         imageView.contentMode = .scaleAspectFill
         imageView.translatesAutoresizingMaskIntoConstraints = false
         return imageView
@@ -19,14 +19,14 @@ class ViewController: UIViewController {
     
     private lazy var titleLabel: UILabel = {
         let label = UILabel()
-        label.text = "Swiftful Thinking!"
+        label.text = "Some New Title!"
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
     
     private lazy var clickMeButton: UIButton = {
         var config = UIButton.Configuration.filled()
-        config.title = "Subscribe Now"
+        config.title = "Click Me!"
         config.image = UIImage(systemName: "heart.fill")
         config.imagePadding = 5
         config.imagePlacement = .leading
