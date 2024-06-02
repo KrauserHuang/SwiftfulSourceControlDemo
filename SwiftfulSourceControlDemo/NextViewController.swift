@@ -39,7 +39,7 @@ class NextViewController: UIViewController {
     
     private lazy var titleLabel: UILabel = {
         let label = UILabel()
-        label.text = "Hello World!"
+        label.text = "Hello World!!!!"
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
