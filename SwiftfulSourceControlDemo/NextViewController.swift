@@ -46,7 +46,7 @@ class NextViewController: UIViewController {
     
     private lazy var clickMeButton: UIButton = {
         var config = UIButton.Configuration.tinted()
-        config.title = "Subscribe!"
+        config.title = "Click Me!"
         config.image = UIImage(systemName: "pencil")
         config.buttonSize = .medium
         config.imagePadding = 5
