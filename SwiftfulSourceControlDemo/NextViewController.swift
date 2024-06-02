@@ -62,7 +62,7 @@ class NextViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = .blue
+        view.backgroundColor = .red
         
         view.addSubview(vStackView)
         vStackView.translatesAutoresizingMaskIntoConstraints = false
