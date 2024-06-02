@@ -57,7 +57,7 @@ class NextViewController: UIViewController {
         return button
     }()
     
-    private lazy var vStackView = UIStackView(arrangedSubviews: [titleLabel, clickMeButton])
+    private lazy var vStackView = UIStackView(arrangedSubviews: [clickMeButton])
 
     override func viewDidLoad() {
         super.viewDidLoad()
