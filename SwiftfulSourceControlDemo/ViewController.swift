@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     private lazy var clickMeButton: UIButton = {
         var config = UIButton.Configuration.filled()
         config.title = "Click Me!"
-        config.image = UIImage(systemName: "magnifyingglass")
+        config.image = UIImage(systemName: "globe")
         config.imagePadding = 5
         config.imagePlacement = .leading
         let button = UIButton(type: .system)
