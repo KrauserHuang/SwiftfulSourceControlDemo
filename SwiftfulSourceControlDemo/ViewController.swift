@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     private lazy var clickMeButton: UIButton = {
         var config = UIButton.Configuration.filled()
         config.title = "Click Me!"
-        config.image = UIImage(systemName: "heart.fill")
+        config.image = UIImage(systemName: "magnifyingglass")
         config.imagePadding = 5
         config.imagePlacement = .leading
         let button = UIButton(type: .system)
@@ -45,7 +45,7 @@ class ViewController: UIViewController {
         return collectionView
     }()
     
-    private lazy var vStackView = UIStackView(arrangedSubviews: [collectionView])
+    private lazy var vStackView = UIStackView(arrangedSubviews: [titleLabel, clickMeButton])
     
     typealias DataSource = UICollectionViewDiffableDataSource<Section, Int>
     typealias Snapshot = NSDiffableDataSourceSnapshot<Section, Int>
