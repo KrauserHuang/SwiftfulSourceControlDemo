@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     
     private lazy var titleLabel: UILabel = {
         let label = UILabel()
-        label.text = "Some New Title!"
+        label.text = "Swiftful Thinking!!!"
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
