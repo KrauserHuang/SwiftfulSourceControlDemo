@@ -50,7 +50,7 @@ class NextViewController: UIViewController {
         config.image = UIImage(systemName: "pencil")
         config.buttonSize = .medium
         config.imagePadding = 5
-        config.imagePlacement = .trailing
+        config.imagePlacement = .leading
         let button = UIButton(type: .system)
         button.configuration = config
         button.translatesAutoresizingMaskIntoConstraints = false
