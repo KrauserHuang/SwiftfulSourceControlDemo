@@ -19,15 +19,15 @@ class ViewController: UIViewController {
     
     private lazy var titleLabel: UILabel = {
         let label = UILabel()
-        label.text = "Hello!"
+        label.text = "Hello Nick!"
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
     
     private lazy var clickMeButton: UIButton = {
         var config = UIButton.Configuration.filled()
-        config.title = "Click Me!"
-        config.image = UIImage(systemName: "magnifyingglass")
+        config.title = "Subscribe!"
+        config.image = UIImage(systemName: "globe")
         config.imagePadding = 5
         config.imagePlacement = .leading
         let button = UIButton(type: .system)
